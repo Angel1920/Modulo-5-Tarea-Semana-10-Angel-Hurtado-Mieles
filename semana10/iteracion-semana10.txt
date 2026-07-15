@@ -1,0 +1,33 @@
+
+1). ¿Qué 2 tareas del backlog harías primero?
+Las dos tareas que realizaría primero son asignar un responsable específico a cada reporte y permitir 
+filtrar los reportes por categoría o por zona geográfica. Elegiría primero la asignación de un responsable 
+porque es la funcionalidad que garantiza que cada incidencia tenga una persona encargada de atenderla 
+desde el momento en que se registra. Esto permite organizar el trabajo del equipo, evitar que los casos 
+queden sin seguimiento y asegurar que cada reporte tenga un proceso de atención claro. Como segunda tarea 
+implementaría el filtrado de reportes por categoría o zona geográfica. Una vez que los casos ya tienen un 
+responsable, es importante que el equipo pueda encontrarlos y organizarlos fácilmente. Esta función ayuda
+a identificar los reportes más urgentes, agrupar incidencias similares y distribuir mejor el trabajo, haciendo
+que la gestión de la plataforma sea más rápida y eficiente conforme aumenta la cantidad de reportes.
+
+
+2). ¿Por qué son las más importantes?
+La primera tarea es la más importante porque asegura que cada reporte tenga una persona encargada de darle 
+seguimiento. Si no existe un responsable asignado, es más probable que las incidencias queden olvidadas o 
+sin resolver, afectando la confianza de la comunidad y la efectividad de la plataforma de veeduría.
+La segunda tarea es importante porque facilita la organización de la información. Al poder filtrar los 
+reportes por categoría o ubicación, el equipo puede identificar rápidamente los casos más urgentes, distribuir 
+mejor el trabajo y responder de manera más eficiente a las necesidades de la comunidad.
+
+
+3). ¿Qué significa para ti que una tarea esté “terminada”?
+Para mí, una tarea está terminada cuando cumple completamente con los objetivos definidos en la historia de 
+usuario y está lista para ser utilizada sin presentar problemas. No basta con que el código esté escrito, sino 
+que también debe funcionar correctamente y estar preparado para que el resto del equipo pueda continuar trabajando
+sobre él.
+
+
+4). Escribe una definición simple de terminado con al menos 3 criterios. 
+Criterio 1: La funcionalidad funciona correctamente y cumple con los requisitos de la historia de usuario.
+Criterio 2: Fue probada para verificar que no presenta errores en los casos de uso principales.
+Criterio 3: El código quedó registrado en Git mediante un commit, permitiendo llevar un control de los cambios realizados.

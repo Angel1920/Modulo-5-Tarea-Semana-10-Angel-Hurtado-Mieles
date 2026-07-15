@@ -1,0 +1,24 @@
+1. Prioridad ALTA
+Un administrador necesita poder asignar un responsable específico a cada reporte que ingresa al
+sistema, de modo que ningún caso quede sin alguien encargado de darle seguimiento; esto evita que
+las incidencias se pierdan o queden estancadas por falta de claridad sobre quién debe atenderlas.
+
+2. Prioridad MEDIA
+De cara a mantener informada a la comunidad, el coordinador requiere generar un resumen semanal
+con los reportes registrados y su estado actual, lo cual facilita presentar avances de forma clara
+en reuniones o espacios de rendición de cuentas.
+
+3. Prioridad MEDIA
+Para agilizar la gestión diaria, el equipo necesita filtrar los reportes por categoría o por zona 
+geográfica, permitiendo así priorizar los casos más urgentes o críticos sin tener que revisar manualmente
+cada uno de los registros existentes.
+
+4. Prioridad MEDIA
+Para fortalecer la rendición de cuentas ante la comunidad, resulta valioso publicar un mapa interactivo
+con la ubicación de los reportes activos, dando visibilidad pública al estado de las incidencias sin 
+necesidad de acceder a un panel administrativo.
+
+5. Prioridad BAJA
+A medida que el volumen de reportes crece, se vuelve necesario exportar la información registrada en un 
+archivo descargable (como Excel o CSV), facilitando el análisis externo y el uso de los datos en informes 
+o auditorías.

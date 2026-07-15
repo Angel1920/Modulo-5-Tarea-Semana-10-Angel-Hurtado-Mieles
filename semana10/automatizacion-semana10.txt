@@ -1,0 +1,27 @@
+Flujo simple de automatización usando n8n y Telegram
+
+Una junta de acción comunal creó una plataforma para que los habitantes del barrio reporten 
+problemas relacionados con el espacio público, como luminarias dañadas, acumulación de basura o 
+huecos en las vías. Para evitar que los reportes pasen desapercibidos, se implementó una 
+automatización con n8n conectada a Telegram.
+
+El flujo funciona de la siguiente manera: un ciudadano ingresa a la plataforma y registra un reporte
+indicando la categoría del problema, una breve descripción y la ubicación. Cuando el reporte es enviado,
+n8n detecta automáticamente el nuevo registro y genera una notificación que envía al grupo de Telegram de 
+los coordinadores de la junta. En el mensaje se informa el tipo de incidencia, el sector donde ocurrió y
+la fecha del reporte. Después de recibir la notificación, uno de los coordinadores ingresa a la plataforma,
+asigna un responsable y comienza el seguimiento del caso.
+
+
+¿Qué evento activa el flujo?
+El flujo se activa cuando un ciudadano registra y envía un nuevo reporte en la plataforma comunitaria.
+
+¿Qué mensaje se enviaría a Telegram?
+"Nuevo reporte recibido. Categoría: Hueco en la vía. Ubicación: Calle 12 con Carrera 8. 
+Fecha: 14/07/2026. Revise la plataforma para asignar un responsable y dar inicio al seguimiento del caso."
+
+¿Qué información no debería enviarse por seguridad?
+No se deben enviar por Telegram datos personales del ciudadano, como su nombre, número de documento, dirección,
+teléfono o correo electrónico. Tampoco deben compartirse credenciales de acceso, información interna de la
+plataforma ni archivos que contengan datos sensibles, ya que esto podría poner en riesgo la privacidad de los
+usuarios y la seguridad del sistema.
